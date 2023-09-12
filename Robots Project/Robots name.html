@@ -1,0 +1,524 @@
+  <!DOCTYPE html>
+ <html>
+ <head>
+
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+
+  <link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
+
+   <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  
+
+   <title></title>
+   <style>
+
+
+.ok{
+  
+  perspective: 800px;
+}
+.ok img{
+  display: block;
+  margin: 20px auto;
+  height: 40px;
+  float: right;
+  ;
+  animation:logo 30s linear infinite;
+}
+@keyframes logo
+{
+  0%{transform: rotateY(0deg);}
+  50%{transform: rotateY(360deg);}
+}
+
+
+
+
+
+
+
+     ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 30px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: gray;
+}
+ 
+ .pen{
+  font-size: 28px;
+  padding-top: 20px;
+  pad
+}
+.gate{
+  float: right;
+  
+ }   
+
+
+
+img
+{
+  padding: 20px;
+}
+
+.img1{
+  float: left;
+}
+.box{
+  padding-bottom: 30px;
+  
+}
+.box2{
+  padding-bottom: 40px;
+}
+.box3{
+  padding-bottom: 100px
+}
+
+footer{
+  position: fixed;
+  bottom: 0;
+}
+
+@media (max-height:800px){
+  footer { position: static; }
+  header { padding-top:40px; }
+}
+
+
+.footer-distributed{
+  background-color: #2c292f;
+  box-sizing: border-box;
+  width: 100%;
+  text-align: left;
+  font: bold 16px sans-serif;
+  padding: 50px 50px 60px 50px;
+  margin-top: 80px;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+  display: inline-block;
+  vertical-align: top;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left{
+  width: 30%;
+}
+
+.footer-distributed h3{
+  color:  #ffffff;
+  font: normal 36px 'Cookie', cursive;
+  margin: 0;
+}
+
+/* The company logo */
+
+.footer-distributed .footer-left img{
+  width: 30%;
+}
+
+.footer-distributed h3 span{
+  color:  #e0ac1c;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links{
+  color:  #ffffff;
+  margin: 20px 0 12px;
+}
+
+.footer-distributed .footer-links a{
+  display:inline-block;
+  line-height: 1.8;
+  text-decoration: none;
+  color:  inherit;
+}
+
+.footer-distributed .footer-company-name{
+  color:  #8f9296;
+  font-size: 14px;
+  font-weight: normal;
+  margin: 0;
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-center{
+  width: 35%;
+}
+
+
+.footer-distributed .footer-center i{
+  background-color:  #33383b;
+  color: #ffffff;
+  font-size: 25px;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 42px;
+  margin: 10px 15px;
+  vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope{
+  font-size: 17px;
+  line-height: 38px;
+}
+
+.footer-distributed .footer-center p{
+  display: inline-block;
+  color: #ffffff;
+  vertical-align: middle;
+  margin:0;
+}
+
+.footer-distributed .footer-center p span{
+  display:block;
+  font-weight: normal;
+  font-size:14px;
+  line-height:2;
+}
+
+.footer-distributed .footer-center p a{
+  color:  #e0ac1c;
+  text-decoration: none;;
+}
+
+
+/* Footer Right */
+
+.footer-distributed .footer-right{
+  width: 30%;
+}
+
+.footer-distributed .footer-company-about{
+  line-height: 20px;
+  color:  #92999f;
+  font-size: 13px;
+  font-weight: normal;
+  margin: 0;
+}
+
+.footer-distributed .footer-company-about span{
+  display: block;
+  color:  #ffffff;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons{
+  margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a{
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+  background-color:   #33383b;
+  border-radius: 2px;
+
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 35px;
+
+  margin-right: 3px;
+  margin-bottom: 5px;
+}
+
+.background{
+  background: #D3D3D3;
+}
+
+
+
+
+
+ .dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 25px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 50px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: black;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 15px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: gray;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+
+   </style>
+ </head>
+
+ <body>
+            
+  <ul>
+  <li class="pen"><a  href="Home.html">Home</a></li>
+
+
+  <div class="dropdown">
+   <a href="About.html "> <button class="dropbtn">ABOUT
+      <i class="fa fa-caret-down"></i>
+    </button></a>
+    <div class="dropdown-content">
+      <a href="Leadership Team.html">Leadership Team</a>
+       <a href="#">Meet The Team</a>
+       
+       
+      </div>
+  </div>
+    
+ 
+      
+
+ 
+
+
+
+
+
+  
+  
+   
+
+
+
+   <div class="dropdown">
+   <a href="Robots name.html "> <button class="dropbtn">ROBOTS
+      <i class="fa fa-caret-down"></i>
+    </button></a>
+    <div class="dropdown-content">
+      <a href="sophia.html">Sophia</a>
+      <a href="Little sophia.html">Little Sophia</a>
+      <a href="Robots name.html">All Robots</a>
+      </div>
+  </div>
+
+
+
+
+
+
+   <li class="pen"><a href="Our services.html">Our Services</a></li>
+<li class="pen"><a href="Contact R.html">Contact</a></li>
+
+ 
+ 
+ <div class="ok">
+<li class="gate"><a href="Home.html"><img src="C:\Users\Developer\Downloads\WhatsApp Image 2021-04-10 at 13.12.00.jpeg" height="80px" width="300px"></a></li></div>
+</ul>   
+ 
+
+ <div class="background">
+
+  <img class="img1" src="F:\Ghufran2\pics\Robots\images (35).jpg" width="550px" height="400px">
+  
+<p style="font-size: 30px"><b>Creating value with</b><br style="font-size: 50px"><b>human-like robots.</b></p>
+
+
+  <p class="box2" style="font-size: 20px;">For more than two decades,  Hanson Robotics has been building the world’s most human-like robots. Endowed with rich personality and holistic cognitive AI, our robots are able to engage emotionally and deeply with people.  They can maintain eye contact, recognize faces, understand speech, hold natural conversations, and learn and develop through experience.
+
+Our robot faces are created with a patented material called Frubber®, a proprietary nanotech skin that mimics real human musculature and skin. This allows our robots to exhibit high-quality expressions and interactivity, simulating humanlike facial features and expressions.</p>
+<p class="box3" style="font-size: 20px;">Our robot faces are created with a patented material called Frubber®, a proprietary nanotech skin that mimics real human musculature and skin. This allows our robots to exhibit high-quality expressions and interactivity, simulating humanlike facial features and expressions.</p>
+
+</div>
+<br><br>
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <center>
+
+ <a  target="_black" href="Philips.html"> <img  src="C:\Users\Developer\Desktop\Robots\images (15).jpg" width="200" height="200"></a>
+
+  <a  href="sophia.html"> <img src=" C:\Users\Developer\Desktop\Robots\images (4).jpg" width="200" height="200"></a>
+
+  <a href="Einstein.html">  <img src=" C:\Users\Developer\Desktop\Robots\images (14).jpg" width="200" height="200"></a>
+
+  <a href="T-HR3.html">  <img src="C:\Users\Developer\Desktop\Robots\T-hr3.jpg" width="200" height="200"></a>
+     <br>
+     
+     
+ <a href="Zeno.html"> <img src=" C:\Users\Developer\Desktop\Robots\images (12).jpg" width="200" height="200"></a>
+          
+ <a href="Bina.html">  <img src=" C:\Users\Developer\Desktop\Robots\images (7).jpg" width="200" height="200"></a>
+
+  <a href="han.html"> <img src=" C:\Users\Developer\Desktop\Robots\download (7).jpg" width="200" height="200"></a>
+
+   <a href="pepper.html"><img src="C:\Users\Developer\Downloads\WhatsApp Image 2021-03-21 at 08.36.41.jpeg" width="200" height="200"></a>
+  <br>
+
+ 
+   
+    <a href="Deigo-san.html"><img src=" C:\Users\Developer\Desktop\Robots\download (8).jpg" width="200" height="200"></a>
+
+    <a href="jules.html"><img src="C:\Users\Developer\Desktop\Robots\images (13).jpg " width="200" height="200"><a>
+
+    <a href="samsung neon.html"><img src="C:\Users\Developer\Downloads\WhatsApp Image 2021-03-21 at 08.36.23.jpeg" width="200" height="200"></a>
+
+
+     
+      
+     
+      
+      <br>
+ 
+  <a href="Surena.html"> <img src="C:\Users\Developer\Downloads\WhatsApp Image 2021-03-21 at 08.35.53.jpeg" width="200" height="200"></a>
+      <br>
+      
+
+
+     
+      <p><i>“On the tree of robotic life,<font style=" color:red; "> human-like robots</font> play a particularly valuable role. It makes sense.<br> Humans are brilliant, beautiful, compassionate, loveable, and capable of love, so why shouldn’t we aspire to make<br> robots human-like in these ways? Don’t we want robots to have such marvelous<br> capabilities as love, compassion, and genius?”</p></i>
+
+
+ 
+             
+          <a target="_black" href="https://www.facebook.com/add.a.link/app/160291820682178/">
+           <img  src="C:\Users\Developer\Desktop\Robots\download.png" width="50" height="40"></a>
+
+          <a target="_black" href="https://twitter.com/"> 
+            <img src="C:\Users\Developer\Desktop\Robots\download (1).png" width="50" height="40"></a>
+
+          <a target="_black" href=" https://www.instagram.com/accounts/login/?next=/direct/inbox/">  
+            <img src="C:\Users\Developer\Desktop\Robots\download (10).jpg" width="50" height="40"></a>
+
+           <a target="_black" href="https://www.youtube.com/watch?v=EopTYckcgp4&list=PLx_KyK8sU66X5Aqfvobpx-6TyN-taSWpl&index=8">
+            <img src="C:\Users\Developer\Desktop\catagories\Ghufran\download (2).png" width="50" height="40"></a>
+        </center>
+
+        
+     <footer class="footer-distributed">
+
+      <div class="footer-left">
+          <img src="C:\Users\Developer\Downloads\WhatsApp Image 2021-04-10 at 13.12.00.jpeg" height="100px" width="180px">
+        <h3>Automata<span>Robotics</span></h3>
+
+        <p class="footer-links">
+          <a href="#">Home</a>
+          |
+          <a href="#">About</a>
+          |
+          <a href="#">Contact</a>
+        </p>
+
+        <p class="footer-company-name">© 2021 Automata Robotics Pvt. Ltd.</p>
+      </div>
+
+      <div class="footer-center">
+        <div>
+          <i class="fa fa-map-marker"></i>
+            <p><span>309 - Aman Orchid Tower,
+              Korangi,</span>
+             Karachi - 75190</p> <hr>
+        </div>
+
+        <div>
+          <i class="fa fa-phone"></i>
+          <p>+92 3181322969 ,</p> 
+          <p>+92 3178548873 ,</p>
+          <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+92 3219066227</p><hr>
+        </div>
+        <div>
+          <i class="fa fa-envelope"></i>
+          <p><a href="mailto:alisalah2500.as@gmail.com">support@automatarobotics.com</a></p><hr>
+        </div>
+      </div>
+ <div class="footer-right">
+        <p class="footer-company-about">
+          <span>About Our company</span>
+          We offer Repairing and Maintenance of the Robots. Automata Robotics is the place where you can fix your Robots With professionals</p>
+        <div class="footer-icons">
+          <a href="#"><i class="fa fa-facebook"></i></a>
+          <a href="#"><i class="fa fa-twitter"></i></a>
+          <a href="#"><i class="fa fa-instagram"></i></a>
+          <a href="#"><i class="fa fa-youtube"></i></a>
+        </div>
+      </div>
+    </footer>
+ 
+ </body>
+ </html>

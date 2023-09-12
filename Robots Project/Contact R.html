@@ -1,0 +1,457 @@
+ <!DOCTYPE html>
+<html>
+<head>
+	<title>Contact Us</title>
+
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+
+	<link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
+
+
+	 <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+
+
+
+</head>
+
+<style type="text/css">
+	ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: gray ;
+}
+
+ .ok{
+  
+  perspective: 800px;
+}
+.ok img{
+  display: block;
+  margin: 20px auto;
+  height: 40px;
+  float: right;
+  ;
+  animation:logo 30s linear infinite;
+}
+@keyframes logo
+{
+  0%{transform: rotateY(0deg);}
+  50%{transform: rotateY(360deg);}
+}
+
+
+
+
+	
+*{
+	padding:0;
+	margin:0;
+}
+
+html{
+	background-color: white;
+}
+
+body{
+	font:16px/1.6 Arial,  sans-serif;
+}
+
+header{
+	text-align: center;
+	padding-top: 100px;
+	margin-bottom:190px;
+}
+
+header h1{
+	font: normal 38px/1.5 'Open Sans', sans-serif;
+	color: black;
+	padding-bottom: 16px;
+}
+
+header h2{
+	color: #F05283;
+}
+
+header span{
+	color: #3F71EA;
+
+}
+
+.container {
+  position: relative;
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 20px;
+  color: white
+}
+
+.being { 
+  width: 100%;
+  height: 450px;
+  
+}
+
+
+
+
+/* The footer is fixed to the bottom of the page */
+
+footer{
+	position: fixed;
+	bottom: 0;
+}
+
+@media (max-height:800px){
+	footer { position: static; }
+	header { padding-top:40px; }
+}
+
+
+.footer-distributed{
+	background-color: #2c292f;
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: bold 16px sans-serif;
+	padding: 50px 50px 60px 50px;
+	margin-top: 80px;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+	display: inline-block;
+	vertical-align: top;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left{
+	width: 30%;
+}
+
+.footer-distributed h3{
+	color:  #ffffff;
+	font: normal 36px 'Cookie', cursive;
+	margin: 0;
+}
+
+/* The company logo */
+
+.footer-distributed .footer-left img{
+	width: 30%;
+}
+
+.footer-distributed h3 span{
+	color:  #e0ac1c;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links{
+	color:  #ffffff;
+	margin: 20px 0 12px;
+}
+
+.footer-distributed .footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color:  inherit;
+}
+
+.footer-distributed .footer-company-name{
+	color:  #8f9296;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-center{
+	width: 35%;
+}
+
+
+.footer-distributed .footer-center i{
+	background-color:  #33383b;
+	color: #ffffff;
+	font-size: 25px;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+	margin: 10px 15px;
+	vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope{
+	font-size: 17px;
+	line-height: 38px;
+}
+
+.footer-distributed .footer-center p{
+	display: inline-block;
+	color: #ffffff;
+	vertical-align: middle;
+	margin:0;
+}
+
+.footer-distributed .footer-center p span{
+	display:block;
+	font-weight: normal;
+	font-size:14px;
+	line-height:2;
+}
+
+.footer-distributed .footer-center p a{
+	color:  #e0ac1c;
+	text-decoration: none;;
+}
+
+
+/* Footer Right */
+
+.footer-distributed .footer-right{
+	width: 30%;
+}
+
+.footer-distributed .footer-company-about{
+	line-height: 20px;
+	color:  #92999f;
+	font-size: 13px;
+	font-weight: normal;
+	margin: 0;
+}
+
+.footer-distributed .footer-company-about span{
+	display: block;
+	color:  #ffffff;
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons{
+	margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color:  #33383b;
+	border-radius: 2px;
+
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
+
+
+.saima{
+	padding-left:  60%;
+}
+.footer-center{
+  padding-top:25px;
+}
+.footer-company-about{
+  padding-top: 35px; padding-left: 80px
+}
+.footer-icons{
+  padding-left: 80px
+}
+.gate{
+  float: right;
+ }
+ .pen{
+	font-size: 20px;
+	padding-top: 25px;
+	pad
+}
+.send{
+	width: 140px;
+	height: 30px;
+	background-color: black;
+	font-size: 20px;
+	color: black
+}
+.contactform{
+	float: left; padding-left: 100px
+}
+
+
+</style>
+	<body bgcolor="#D3D3D3">
+
+
+         
+<ul>
+  <li class="pen"><a  href="Home.html">Home</a></li>
+  <li class="pen"><a href="About.html">About</a></li>
+  
+  <li class="pen"><a href="Robots name.html">Robots</a></li>
+   <li class="pen"><a href="Our services.html">Our Services</a></li>
+<li class="pen"><a href="Contact page.html">Contact</a></li>
+
+<div class="ok">
+<li class="gate"><a href="Home.html"><img src="C:\Users\Developer\Downloads\WhatsApp Image 2021-04-10 at 13.12.00.jpeg" height="80px" width="300px"></a></li></div>
+
+
+
+ </ul>
+
+ 
+<center>
+ <div class="container">
+  <img class="being"  src="C:\Users\Developer\Downloads\WhatsApp Image 2021-04-10 at 05.00.29.jpeg " >
+  <div class="center" ><h1><b><i>Contact Us</i></b></h1><p>For Sophia event appearances (virtual or live), sponsorship inquiries or questions<br> about research robot sales, press or careers, please submit this form, or scroll<br> down for direct email contact information.  Thank you!</p></div> </div>
+</div>
+</center>
+
+
+
+		<header>
+		
+	<br><br><br>
+	<form>
+	    <div class="contactform">
+		
+			<label><b style="font-size: 20px ; float: left;"> First Name:</b></label><br>
+			 <input type="text" name="First Name" class="form-control" required="required" size="60"  placeholder="First Name" style="height: 30px; border-radius: 10px; text-align: center;"><br><br>
+
+			 <label><b style="font-size: 20px; float: left;">Last Name:</b></label><br>
+			 <input type="text" name="Last Name" class="form-control" required="required" size="60"  placeholder="Last Name" style="height: 30px; border-radius: 10px; text-align: center;"><br><br>
+
+			 <label><b style="font-size: 20px; float: left;">Company Name:</b></label><br>
+			 <input type="text" name="Company Name" class="form-control" required="required" size="60"  placeholder="Company Name" style="height: 30px; border-radius: 10px; text-align: center;"><br><br>
+
+			<label><b style="font-size: 20px; float: left;">Comapny Email:</b></label><br>
+			<input type="text" name="Company Email"  class="form-control" required="required" size="60" placeholder="Company Email" style="height: 30px; border-radius: 10px; text-align: center;"><br><br>
+
+			<label><b style="font-size: 20px; float: left;">Country:</b></label><br><select name="country" style="width: 450px; border-radius: 10px; height: 30px">
+			<option value="Pakistan" selected="">Pakistan</option>
+			<option value="india">India</option>
+			<option value="Saudia">Saudia</option>
+			<option value="Oman">Oman</option>
+			<option value="America">America</option>
+			<option value="Canada">Canada</option>
+			<option value="Africa">Africa</option>
+			<option value="Turkey">Turkey</option>
+			<option value="England">England</option>
+			<option value="Sri Lanka">Sri Lanka</option>
+			<option value="Italy">Italy</option>
+		    </select><br><br>
+
+			<label><b style="font-size: 20px; float: left;">Message:</b></label><br>
+			<input type="text" name="Message" class="form-control" required="required" size="60" placeholder="Message" style="height: 100px; border-radius: 10px; text-align: center;"><br><br>
+
+			
+
+			 <button class="send"><a href="mailto:alisalah2500.as@gmail.com" style="color: white; text-decoration: none; font-size: 17px">Send</a></button>
+       </form>
+	</div>
+	         
+	         
+	         <br>
+	         <br>
+
+
+
+
+
+	         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3619.271355346977!2d67.15250231447814!3d24.888724050254773!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb3399771dbb06f%3A0xa7d76d6623a8d1ad!2sCAA%20Colony%20Faisal%20Cantonment%2C%20Karachi%2C%20Karachi%20City%2C%20Sindh%2C%20Pakistan!5e0!3m2!1sen!2s!4v1617013484697!5m2!1sen!2s" width="700" height="400" style="" allowfullscreen="" loading="lazy"></iframe>
+		
+	      
+	       
+	       
+		</header>
+
+		
+
+
+  <footer class="footer-distributed">
+
+      <div class="footer-left">
+          <img src="C:\Users\Developer\Downloads\WhatsApp Image 2021-04-10 at 13.12.00.jpeg " height="120px" width="200px">
+        <h3>Automata<span>Robotics</span></h3>
+
+        <p class="footer-links">
+          <a href="#">Home</a>
+          |
+          <a href="#">About</a>
+          |
+          <a href="#">Contact</a>
+        </p>
+
+        <p class="footer-company-name">© 2021 Automata Robotics Pvt. Ltd.</p>
+      </div>
+
+      <div class="footer-center">
+        <div>
+          <i class="fa fa-map-marker"></i>
+            <p><span>309 - Aman Orchid Tower,
+              Korangi,</span>
+             Karachi - 75190</p> <hr>
+        </div>
+
+        <div>
+          <i class="fa fa-phone"></i>
+          <p>+92 3181322969 ,</p> 
+          <p>+92 3178548873 ,</p>
+          <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+92 3219066227</p><hr>
+        </div>
+        <div>
+          <i class="fa fa-envelope"></i>
+          <p><a href="mailto:alisalah2500.as@gmail.com">support@automatarobotics.com</a></p><hr>
+        </div>
+      </div>
+ <div class="footer-right">
+        <p class="footer-company-about">
+          <span>About Our company</span>
+          We offer Repairing and Maintenance of the Robots. Automata Robotics is the place where you can fix your Robots With professionals</p>
+        <div class="footer-icons">
+          <a href="#"><i class="fa fa-facebook"></i></a>
+          <a href="#"><i class="fa fa-twitter"></i></a>
+          <a href="#"><i class="fa fa-instagram"></i></a>
+          <a href="#"><i class="fa fa-youtube"></i></a>
+        </div>
+      </div>
+    </footer>
+</body>
+</html>

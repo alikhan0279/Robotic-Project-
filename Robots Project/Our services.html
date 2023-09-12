@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>Service</title>
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+
+	<link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
+
+	 <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  
+
+</head>
+<style type="text/css">
+
+
+.ok{
+  
+  perspective: 800px;
+}
+.ok img{
+  display: block;
+  margin: 20px auto;
+  height: 40px;
+  float: right;
+  ;
+  animation:logo 30s linear infinite;
+}
+@keyframes logo
+{
+  0%{transform: rotateY(0deg);}
+  50%{transform: rotateY(360deg);}
+}
+
+
+
+
+
+
+
+
+
+
+
+	ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: gray;
+}
+
+   
+ .pen{
+  font-size: 25px;
+  padding-top: 20px;
+  pad
+}
+.gate{
+  float: right;
+  
+ }   
+  
+
+
+
+
+
+
+
+	h1{
+		font-size: 35px; 
+	}
+	button{
+		background-color: teal;
+		width: 300px;
+		height: 100px;
+	}
+	hr{
+		border: 5px solid black
+	}
+	.a{
+		padding-top: 40px
+	}
+	.b{
+		font-size: 15px; padding-right: 150px; padding-left: 150px
+	}
+	.c{
+		padding-top: 20px
+	}
+	.d{
+		font-size: 35px; padding-top: 50px ; font-family: optima
+	}
+	.e{
+		font-size: 15px;  padding-left: 150px
+	}
+
+
+footer{
+	position: fixed;
+	bottom: 0;
+}
+
+@media (max-height:800px){
+	footer { position: static; }
+	header { padding-top:40px; }
+}
+
+
+.footer-distributed{
+	background-color: #2c292f;
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: bold 16px sans-serif;
+	padding: 50px 50px 60px 50px;
+	margin-top: 80px;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+	display: inline-block;
+	vertical-align: top;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left{
+	width: 30%;
+}
+
+.footer-distributed h3{
+	color:  #ffffff;
+	font: normal 36px 'Cookie', cursive;
+	margin: 0;
+}
+
+/* The company logo */
+
+.footer-distributed .footer-left img{
+	width: 30%;
+}
+
+.footer-distributed h3 span{
+	color:  #e0ac1c;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links{
+	color:  #ffffff;
+	margin: 20px 0 12px;
+}
+
+.footer-distributed .footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color:  inherit;
+}
+
+.footer-distributed .footer-company-name{
+	color:  #8f9296;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-center{
+	width: 35%;
+}
+
+
+.footer-distributed .footer-center i{
+	background-color:  #33383b;
+	color: #ffffff;
+	font-size: 25px;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+	margin: 10px 15px;
+	vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope{
+	font-size: 17px;
+	line-height: 38px;
+}
+
+.footer-distributed .footer-center p{
+	display: inline-block;
+	color: #ffffff;
+	vertical-align: middle;
+	margin:0;
+}
+
+.footer-distributed .footer-center p span{
+	display:block;
+	font-weight: normal;
+	font-size:14px;
+	line-height:2;
+}
+
+.footer-distributed .footer-center p a{
+	color:  #e0ac1c;
+	text-decoration: none;;
+}
+
+
+/* Footer Right */
+
+.footer-distributed .footer-right{
+	width: 30%;
+}
+
+.footer-distributed .footer-company-about{
+	line-height: 20px;
+	color:  #92999f;
+	font-size: 13px;
+	font-weight: normal;
+	margin: 0;
+}
+
+.footer-distributed .footer-company-about span{
+	display: block;
+	color:  #ffffff;
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons{
+	margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color:  #33383b;
+	border-radius: 2px;
+
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
+
+	 
+
+
+</style>
+<body>
+
+
+                
+<ul>
+  <li class="pen"><a  href="Home.html">Home</a></li>
+  <li class="pen"><a href="About.html">About</a></li>
+  
+  <li class="pen"><a href="Robots name.html">Robots</a></li>
+   <li class="pen"><a href="Our services.html">Our Services</a></li>
+<li class="pen"><a href="Contact R.html">Contact</a></li>
+ 
+ <div class="ok">
+<li class="gate"><a href="Home.html"><img src="C:\Users\Developer\Downloads\WhatsApp Image 2021-04-10 at 13.12.00.jpeg" height="80px" width="300px"></a></li>
+</ul>
+
+   
+	 
+
+ 
+ 	<img src="C:\Users\Developer\Downloads\WhatsApp Image 2021-03-29 at 02.23.49.jpeg" width="100%" height="300px"  >
+	<center ><h1>Robot Preventive Maintenance</h1></center><hr width="1000" >
+
+	<center><img class="a" src="C:\Users\Developer\Downloads\WhatsApp Image 2021-03-25 at 00.37.19 (1).jpeg"></center>
+
+	<center><h1>Repair and Maintenance Service for Industrial Robotics</h1></center>
+
+	<center><p class="b">Industrial robots can enhance your company’s operations in a number of ways, and like any type of machinery, robots require ongoing maintenance to function at peak performance. Whether you want to maintain your robotics proactively to avoid problems or you’ve run into an equipment malfunction, Global Electronic Services can help. We offer comprehensive maintenance services for industrial robots. You can trust our expert technicians to help you get the most out of your industrial robotics.</p></center>
+
+	<center><h1 class="d">Our Fast and Affordable Industrial Robotics Repair Services</h1></center>
+	<center><img class="c" src="C:\Users\Developer\Downloads\WhatsApp Image 2021-03-25 at 00.37.20.jpeg"></center>
+	<center><p class="b">At Global Electronic Services, our repair technicians know robots. Our factory-trained and certified professionals have experience with ABB, Motoman, Fanuc, ASI Robotics and other brands, so no matter what kind of industrial robot you have and what the problem is, we’ll fix it.<br><br>Our industrial robotic repair services are incredibly thorough. We test every part, repair whatever is not working and replace what we think is likely to fail moving forward. The result is a robot that’s functioning so well, you’ll probably never realize it was broken. That’s a promise we back up with an industry-leading 18-Month In-Service Warranty.<br><br>If your company’s robots aren’t working, your whole operation could shut down, and that’s something you can’t afford. That’s why we offer rush repair service that will have robots back in operation in a day or two. Even our standard service typically has your company’s robots fixed and ready to go in five days or less. We know that downtime is a killer in the industrial electronics world, and that’s why we work to minimize it as much as possible.<br><br>We also provide your business the best value when it comes to our robotic repair services. We start by giving you a fair and accurate estimate upfront so you know what you can expect to pay from the beginning. We stand behind our price with a Global Price Guarantee — if you can find a lower price from a competitor, we’ll beat it by 10%.</p></center>
+
+	<center><h1 class="d">Importance of Industrial Robot Preventative Maintenance</h1></center>
+	<center><p class="b">It may be clear when you are in need of robot repair, but this shouldn’t be the only time you maintain your company’s robotics. When it comes to industrial robots, preventative maintenance is critical. It may be tempting to not make any extra efforts or expenditures to care for robots until something goes wrong with them, but this can be a big mistake for a number of reasons.</p></center>
+
+	<center><h1 class="d">When Should Preventative Maintenance Be Performed?</h1></center>
+	<center><p class="b">Annual preventative maintenance is typical for all robots. We recommend referencing your robot manual for maintenance guidelines, or you can also call us for information on your specific product.<br>
+	<br>Any abnormal noise or vibration, low oil in oil glass sights, oil seepage, grease seepage, jerky motion, play in any axis or robot accuracy are also good signs of needed maintenance.</p></center>
+
+    <center><h1 class="d">Benefits of Preventative Maintenance for Industrial Robots</h1></center>
+	<center><img class="c" src="C:\Users\Developer\Downloads\WhatsApp Image 2021-03-25 at 00.37.20 (1).jpeg"></center>
+
+	<center><p class="b">There are many reasons to prioritize preventative maintenance for robotic systems. Some of the most significant benefits of preventative maintenance include:<br><br> <b>Early detection:</b> First, preventative maintenance allows you to identify potential issues with industrial robots before they become big repair problems. Noticing a part is about to wear out during a basic maintenance check and quickly replacing it is much cheaper and easier than waiting for that part to fail, possibly taking other parts of the robot and whatever it is working on with it.<br><br><b>Longevity:</b> Preventative maintenance for industrial robots also allows you to extend the life of those robots dramatically. Even if nothing is obviously wrong, when a robot is poorly cared for, it may put additional stress on the machine’s parts. You may not notice it in day-to-day performance, but over time, those stresses can add up and put an end to the robot’s life long before its due.<br><br><b>Efficiency:</b> Well-maintained machines also tend to operate more efficiently. Even if your robots seem to be working without the recommended preventative maintenance, it’s likely that you’re sacrificing efficiency and spending more on operating costs. To help robots work efficiently, you need to proactively maintain them.<br><br><b>Control:</b> By doing regular preventative maintenance, you control how a robot’s repairs will affect your business. If a maintenance check reveals a problem, your company can solve the problem in stages, or fix it at a time when the robot would normally not be in operation or can have its duties replaced by another robot. This means you can dramatically reduce or eliminate downtime, preserving your productivity. Contrast that with your whole production line grinding to a halt unexpectedly.<br><br><b>Cost savings:</b> Another advantage of proactively maintaining industrial robots is that it can save you from costly repairs or replacements that may otherwise arise. Generally, preventative maintenance tasks are more affordable than emergency repairs in the case of a breakdown. Your business can also save money by avoiding unplanned downtime and keeping your operations in full swing.</p></center>
+
+	<center><h1 class="d">What Does Our Robot Service Technician Do?</h1></center>
+	<p class="e">1. Performs a complete system backup<br><br>
+		2. Pre Grease Inspection of all axis and function<br><br>
+3. Performs any necessary troubleshooting, test unit for any vibration, alarms or failures<br><br>
+4. Share report and findings with the customer.<br><br>
+If additional issues are identified, a quote will be provided to the customer to approve or decline. Additional agreed upon repairs will then be performed at this time.<br><br>
+5. Replace grease and oil for all axis<br><br>
+6. Replace controller and robot batteries<br><br>
+7. Post grease inspection of all axis<br><br>
+8. Document any vibration, alarms or failures<br><br>
+9. Perform final testing on robot and controller<br><br>
+10. Complete customer care package<br><br>
+11. Customer buy-off documented<br><br></p>
+           
+           <center><img src="C:\Users\Developer\Downloads\WhatsApp Image 2021-03-25 at 00.37.21.jpeg"></center>
+
+     <center><h1 class="d">Why You Should Trust a Professional for Industrial Robotic Repair</h1></center>
+     <center><p class="b">When your company schedules maintenance, it’s important to schedule it with an experienced professional who knows your brand of robot intimately and has a thorough and complete maintenance process for your particular machine. <br><br>
+Your staff may fully understand how to operate the industrial robots, but understanding how to maintain them is a different matter entirely. These systems can be highly complex and require maintenance technicians with the right expertise to detect potential issues and give robots the proper upkeep they need. There are routine maintenance tasks your staff can carry out, but it’s smart to trust more thorough inspections and complex repairs to the professionals.<br><br>
+Global Electronic Services has a time-tested and approved process for complete maintenance for all your company’s industrial robots. Our technicians can inspect and repair industrial robots in your facility so you can enjoy longer-lasting, more efficient machines and avoid inefficiency and breakdowns.</p></center>
+     <center><h1 class="d">We’re Ready to Handle All Your Robot Repair and Maintenance Needs</h1></center>
+     <center><p class="b">Don’t trust the maintenance and repair of your company’s robotics to just anyone. They’re too important. And don’t put off repairing robotics because of concerns about cost or how much time you’ll lose. Global Electronic Services is here to take all those concerns off the table. We’re ready to get your company and robots back to work. To get started,  call us at +9663181322969 to learn more about our services.</p></center>
+
+            
+
+
+            	  <footer class="footer-distributed">
+
+      <div class="footer-left">
+          <img src="C:\Users\Developer\Downloads\WhatsApp Image 2021-04-10 at 13.12.00.jpeg" height="100px" width="200px">
+        <h3>Automata<span>Robotics</span></h3>
+
+        <p class="footer-links">
+          <a href="#">Home</a>
+          |
+          <a href="#">About</a>
+          |
+          <a href="#">Contact</a>
+        </p>
+
+        <p class="footer-company-name">© 2021 Automata Robotics Pvt. Ltd.</p>
+      </div>
+
+      <div class="footer-center">
+        <div>
+          <i class="fa fa-map-marker"></i>
+            <p><span>309 - Aman Orchid Tower,
+              Korangi,</span>
+             Karachi - 75190</p> <hr>
+        </div>
+
+        <div>
+          <i class="fa fa-phone"></i>
+          <p>+92 3181322969 ,</p> 
+          <p>+92 3178548873 ,</p>
+          <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+92 3219066227</p><hr>
+        </div>
+        <div>
+          <i class="fa fa-envelope"></i>
+          <p><a href="mailto:alisalah2500.as@gmail.com">support@automatarobotics.com</a></p><hr>
+        </div>
+      </div>
+ <div class="footer-right">
+        <p class="footer-company-about">
+          <span>About Our company</span>
+          We offer Repairing and Maintenance of the Robots. Automata Robotics is the place where you can fix your Robots With professionals</p>
+        <div class="footer-icons">
+          <a href="#"><i class="fa fa-facebook"></i></a>
+          <a href="#"><i class="fa fa-twitter"></i></a>
+          <a href="#"><i class="fa fa-instagram"></i></a>
+          <a href="#"><i class="fa fa-youtube"></i></a>
+        </div>
+      </div>
+    </footer>
+
+                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
